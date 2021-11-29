@@ -1,0 +1,18 @@
+.image{
+    background-image: url(../../../img/Frame.jpg);
+    border: solid 15px rgba(241, 232, 232, 0.65);
+    border-radius: 15px;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media only screen and (max-width: 600px) {
+    .about-section{
+        margin: 0;
+        padding: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
