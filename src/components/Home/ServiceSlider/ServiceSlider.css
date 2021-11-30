@@ -9,3 +9,9 @@
     background-color: whitesmoke;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .text-white{
+        width: 100%;
+    }
+}
